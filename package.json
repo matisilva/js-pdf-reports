@@ -1,0 +1,32 @@
+{
+  "name": "js-reporter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "chrome-pdf": "^0.5.2",
+    "express": "^4.17.1",
+    "jsreport": "^2.9.0",
+    "jsreport-chrome-pdf": "^1.8.0",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matisilva/js-pdf-reports.git"
+  },
+  "keywords": [
+    "js",
+    "reports",
+    "pdf"
+  ],
+  "author": "Matias Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matisilva/js-pdf-reports/issues"
+  },
+  "homepage": "https://github.com/matisilva/js-pdf-reports#readme"
+}
