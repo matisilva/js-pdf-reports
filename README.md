@@ -4,6 +4,7 @@
 Start JSreport server
 ```
 cd jsreportsapp
+npm install
 jsreport start
 ```
 

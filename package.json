@@ -4,10 +4,8 @@
   "description": "",
   "main": "app.js",
   "dependencies": {
-    "chrome-pdf": "^0.5.2",
     "express": "^4.17.1",
     "jsreport": "^2.9.0",
-    "jsreport-chrome-pdf": "^1.8.0",
     "request": "^2.88.2"
   },
   "devDependencies": {},

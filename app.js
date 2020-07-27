@@ -39,7 +39,11 @@ app.get('/invoice', function(req, res, next){
     method: 'POST',
     json: data
   }
-  request(payload).pipe(res);
+  request(payload).on('response', function(response) {
+    console.log(response.statusCode)
+    console.log(response.headers['content-type'])
+    console.log(response.headers['report-blobname']) // This can be used to build a Cache.
+  }).pipe(res);
 });
 
 app.listen(port, () => console.log(`Example app listening at http://localhost:${port}`))
